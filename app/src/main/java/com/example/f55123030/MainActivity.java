@@ -50,11 +50,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             }
             if (TextUtils.isEmpty(inputHeight)) {
                 isEmptyFields = true;
-                edtLength.setError("Field ini tidak boleh kosong");
+                edtHeight.setError("Field ini tidak boleh kosong");
             }
             if (TextUtils.isEmpty(inputWidth)) {
                 isEmptyFields = true;
-                edtLength.setError("Field ini tidak boleh kosong");
+                edtWidth.setError("Field ini tidak boleh kosong");
             }
             if (!isEmptyFields){
                 double volume = Double.parseDouble(inputLength) * Double.parseDouble(inputWidth) * Double.parseDouble(inputHeight);
